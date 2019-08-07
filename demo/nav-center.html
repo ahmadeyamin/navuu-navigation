@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>NAVUU | Ultimate Navigation</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Navigation">
+    <meta author="AhmadEyamin">
+    <link rel="stylesheet" href="../dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../dist/css/navigation.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" href="../dist/css/style.css">
+    <script src="../dist/js/jquery.js"></script>
+    <script src="../dist/js/encrypted.js"></script>
+</head>
+
+<body>
+
+
+    <header>
+
+
+        <div class="nav-wrapper">
+
+            <nav id="navigation" class="navigation navigation-centered">
+                <div class="navigation-header">
+                    <div class="navigation-logo">
+                        <a href="#">
+                            <img src="../dist/img/Menu.svg" class="img-fluid" alt="Responsive image">
+                        </a>
+                    </div>
+                    <div class="navigation-button-toggler">
+                        <i class="hamburger-icon"></i>
+                    </div>
+                </div>
+                <div class="navigation-body">
+                    <div class="navigation-body-header">
+                        <div class="navigation-logo hide-on-landscape">
+                            <a href="#">
+                                <img src="../dist/img/Menu.svg" class="img-fluid" alt="Responsive image">
+                            </a>
+                        </div>
+                        <span class="navigation-body-close-button">&#10005;</span>
+                    </div>
+                    <ul class="navigation-menu">
+                        <li class="navigation-item is-active">
+                            <a class="navigation-link" href="#">Home</a>
+                        </li>
+                        <li class="navigation-item">
+                            <a class="navigation-link" href="#">Services</a>
+                        </li>
+                        <li class="navigation-item navigation-logo">
+                            <a class="navigation-link hide-on-portrait" href="#">
+                                <img src="../dist/img/Menu.svg" class="img-fluid" style="width:50px"
+                                    alt="Responsive image">
+                            </a>
+                        </li>
+                        <li class="navigation-item">
+                            <a class="navigation-link" href="#">Blog</a>
+                        </li>
+                        <li class="navigation-item">
+                            <a class="navigation-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            <div class="overlay-panel" style="background: rgba(0, 0, 0, 0.7)"></div>
+            </nav>
+
+
+        </div>
+
+
+
+
+
+
+
+        <div class="header-text text-center position-relative text-white">
+            <h1 class="display-4 position-relative">
+                NAVUU
+                <span class="p-1">V. 1.0.0</span>
+            </h1>
+            <hr>
+            <p class="lead mx-auto m-0">
+                The best navigation for ALL websites!
+            </p>
+            <p class="mx-auto mb-5">
+                Pure Javascript, super compatibility and high level documentation!
+            </p>
+            <div class="header-image d-flex justify-content-center align-items-center">
+                <img src="../dist/img/iphone.png" class="img-fluid" alt="Responsive image">
+            </div>
+
+
+            <h3 class="text-center text-white mt-4">Help & Work With Developer (<a class="text-white"
+                    href="http://about.me/ahmadeyamin">AhmadEyamin</a>)</h3>
+        </div>
+    </header>
+    <script>
+        $('#navigation').navigation()
+    </script>
+</body>
+
+</html>

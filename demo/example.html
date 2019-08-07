@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>NAVUU | Ultimate Navigation</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Navigation">
+	<meta author="AhmadEyamin">
+	<link rel="stylesheet" href="../dist/css/bootstrap.css">
+	<link rel="stylesheet" href="../dist/css/navigation.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	<link rel="stylesheet" href="../dist/css/style.css">
+	<script src="../dist/js/jquery.js"></script>
+	<script src="../dist/js/encrypted.js"></script>
+</head>
+
+<body>
+
+
+	<header>
+
+		<div class="nav-wrapper">
+
+			<nav id="navigation" class="navigation navigation-justified sticky-top">
+				<div class="navigation-header">
+					<div class="navigation-logo">
+						<a href="#!">
+							<img src="../dist/img/Menu.svg" alt="logo">
+						</a>
+					</div>
+					<div class="navigation-button-toggler">
+						<i class="hamburger-icon"></i>
+					</div>
+				</div>
+				<div class="navigation-body">
+					<div class="navigation-body-header">
+						<div class="navigation-logo">
+							<a href="#!">
+								<img src="../dist/img/Menu.svg" alt="logo">
+							</a>
+						</div>
+						<span class="navigation-body-close-button">&#10005;</span>
+					</div>
+					<ul class="navigation-menu">
+						<li class="navigation-item">
+							<a class="navigation-link" href="#!">
+								Dropdown
+								<span class="submenu-indicator"></span>
+							</a>
+							<ul class="navigation-dropdown">
+								<li class="navigation-dropdown-item">
+									<a class="navigation-dropdown-link" href="#!">Simple item</a>
+								</li>
+								<li class="navigation-dropdown-item">
+									<a class="navigation-dropdown-link" href="#!">Another item</a>
+								</li>
+								<li class="navigation-dropdown-item">
+									<a class="navigation-dropdown-link" href="#!">
+										Dropdown at right
+										<span class="submenu-indicator"></span>
+									</a>
+									<ul class="navigation-dropdown">
+										<li class="navigation-dropdown-item">
+											<a class="navigation-dropdown-link" href="#!">First item</a>
+										</li>
+										<li class="navigation-dropdown-item">
+											<a class="navigation-dropdown-link" href="#!">Second item</a>
+										</li>
+										<li class="navigation-dropdown-item">
+											<a class="navigation-dropdown-link" href="#!">Third item</a>
+										</li>
+										<li class="navigation-dropdown-item">
+											<a class="navigation-dropdown-link" href="#!">
+												Dropdown at left
+												<span class="submenu-indicator submenu-indicator-left"></span>
+											</a>
+											<ul class="navigation-dropdown navigation-dropdown-left">
+												<li class="navigation-dropdown-item">
+													<a class="navigation-dropdown-link" href="#!">Simple
+														item</a>
+												</li>
+												<li class="navigation-dropdown-item">
+													<a class="navigation-dropdown-link" href="#!">Another
+														item</a>
+												</li>
+												<li class="navigation-dropdown-item">
+													<a class="navigation-dropdown-link" href="#!">Just an
+														item</a>
+												</li>
+												<li class="navigation-dropdown-item">
+													<a class="navigation-dropdown-link" href="#!">Simple
+														item</a>
+												</li>
+											</ul>
+										</li>
+										<li class="navigation-dropdown-item">
+											<a class="navigation-dropdown-link" href="#!">Fourth item</a>
+										</li>
+									</ul>
+								</li>
+								<li class="navigation-dropdown-item">
+									<a class="navigation-dropdown-link" href="#!">Just an item</a>
+								</li>
+							</ul>
+						</li>
+						<li class="navigation-item">
+							<a class="navigation-link" href="#!">
+								Another dropdown
+								<span class="submenu-indicator"></span>
+							</a>
+							<ul class="navigation-dropdown ">
+								<li class="navigation-dropdown-item">
+									<a class="navigation-dropdown-link" href="#!">First </a>
+								</li>
+								<li class="navigation-dropdown-item">
+									<a class="navigation-dropdown-link" href="#!">Second </a>
+								</li>
+								<li class="navigation-dropdown-item">
+									<a class="navigation-dropdown-link" href="#!">Third </a>
+								</li>
+								<li class="navigation-dropdown-item">
+									<a class="navigation-dropdown-link" href="#!">
+										Parent
+										<span class="submenu-indicator"></span>
+									</a>
+									<ul class="navigation-dropdown ">
+										<li class="navigation-dropdown-item">
+											<a class="navigation-dropdown-link" href="#!">First itm</a>
+										</li>
+										<li class="navigation-dropdown-item">
+											<a class="navigation-dropdown-link" href="#!">
+												Parent item
+												<span class="submenu-indicator"></span>
+											</a>
+											<ul class="navigation-dropdown ">
+												<li class="navigation-dropdown-item">
+													<a class="navigation-dropdown-link" href="#!">Simple
+														item</a>
+												</li>
+												<li class="navigation-dropdown-item">
+													<a class="navigation-dropdown-link" href="#!">Another
+														item</a>
+												</li>
+												<li class="navigation-dropdown-item">
+													<a class="navigation-dropdown-link" href="#!">Just an
+														item</a>
+												</li>
+												<li class="navigation-dropdown-item">
+													<a class="navigation-dropdown-link" href="#!">Last item</a>
+												</li>
+											</ul>
+										</li>
+										<li class="navigation-dropdown-item">
+											<a class="navigation-dropdown-link" href="#!">Third item</a>
+										</li>
+										<li class="navigation-dropdown-item">
+											<a class="navigation-dropdown-link" href="#!">Fourth </a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="navigation-item">
+							<a class="navigation-link" href="#!">
+								Megamenu
+								<span class="submenu-indicator"></span>
+							</a>
+							<div class="navigation-megamenu">
+								<div class="navigation-megamenu-container">
+									<div class="navigation-row">
+										<div class="navigation-col">
+											<div class="navigation-row">
+												<div class="navigation-col-3">
+													<img src="https://dummyimage.com/600x400/000/fff"
+														class="img-fluid w-100" alt="Responsive image">
+												</div>
+												<div class="navigation-col-8 d-flex align-items-center">
+													<div>
+														<h6 class="w-100 pl-lg-3"><b>Lorem ipsum dolor</b></h6>
+														<p class="m-0 pl-lg-3 text-justify">
+															quam inventore nulla vero modi qui? Saepe assumenda iste
+															aliquid doloribus unde.
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="navigation-col">
+											<div class="navigation-row">
+												<div class="navigation-col-3">
+													<img src="https://dummyimage.com/600x400/000/fff"
+														class="img-fluid w-100" alt="Responsive image">
+												</div>
+												<div class="navigation-col-8 d-flex align-items-center">
+													<div>
+														<h6 class="w-100 pl-lg-3"><b>Morbi eu tempus</b></h6>
+														<p class="m-0 pl-lg-3 text-justify">
+															Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+															Morbi eu tempus nibh, a accumsan augue.
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="navigation-row">
+										<div class="navigation-col">
+											<div class="navigation-row">
+												<div class="navigation-col-3">
+													<img src="https://dummyimage.com/600x400/000/fff"
+														class="img-fluid w-100" alt="Responsive image">
+												</div>
+												<div class="navigation-col-8 d-flex align-items-center">
+													<div>
+														<h6 class="w-100 pl-lg-3"><b>Consectetur</b></h6>
+														<p class="m-0 pl-lg-3 text-justify">
+															Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+															Morbi eu tempus nibh, a accumsan augue.
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="navigation-col">
+											<div class="navigation-row">
+												<div class="navigation-col-3">
+													<img src="https://dummyimage.com/600x400/000/fff"
+														class="img-fluid w-100" alt="Responsive image">
+												</div>
+												<div class="navigation-col-8 d-flex align-items-center">
+													<div>
+														<h6 class="w-100 pl-lg-3"><b>Adipiscing elit</b></h6>
+														<p class="m-0 pl-lg-3 text-justify">
+															Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+															Morbi eu tempus nibh, a accumsan augue.
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="navigation-row">
+										<div class="navigation-col">
+											<div class="navigation-row">
+												<div class="navigation-col-3">
+													<img src="https://dummyimage.com/600x400/000/fff"
+														class="img-fluid w-100" alt="Responsive image">
+												</div>
+												<div class="navigation-col-8 d-flex align-items-center">
+													<div>
+														<h6 class="w-100 pl-lg-3"><b>Accumsan augue</b></h6>
+														<p class="m-0 pl-lg-3 text-justify">
+															Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+															Morbi eu tempus nibh, a accumsan augue.
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="navigation-col">
+											<div class="navigation-row">
+												<div class="navigation-col-3">
+													<img src="https://dummyimage.com/600x400/000/fff"
+														class="img-fluid w-100" alt="Responsive image">
+												</div>
+												<div class="navigation-col-8 d-flex align-items-center">
+													<div>
+														<h6 class="w-100 pl-lg-3"><b>Tempus nibh</b></h6>
+														<p class="m-0 pl-lg-3 text-justify">
+															Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+															Morbi eu tempus nibh, a accumsan augue.
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="navigation-row">
+										<div class="navigation-col">
+											<div class="navigation-row">
+												<div class="navigation-col-3">
+													<img src="https://dummyimage.com/600x400/000/fff"
+														class="img-fluid w-100" alt="Responsive image">
+												</div>
+												<div class="navigation-col-8 d-flex align-items-center">
+													<div>
+														<h6 class="w-100 pl-lg-3"><b>Dolor sit</b></h6>
+														<p class="m-0 pl-lg-3 text-justify">
+															Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+															Morbi eu tempus nibh, a accumsan augue.
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="navigation-col">
+											<div class="navigation-row">
+												<div class="navigation-col-3">
+													<img src="https://dummyimage.com/600x400/000/fff"
+														class="img-fluid w-100" alt="Responsive image">
+												</div>
+												<div class="navigation-col-8 d-flex align-items-center">
+													<div>
+														<h6 class="w-100 pl-lg-3"><b>Vestibulum</b></h6>
+														<p class="m-0 pl-lg-3 text-justify">
+															Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+															Morbi eu tempus nibh, a accumsan augue.
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="navigation-item">
+							<a class="navigation-link" href="#!">
+								Lists
+								<span class="submenu-indicator"></span>
+							</a>
+							<div class="navigation-megamenu">
+								<div class="navigation-megamenu-container">
+									<div class="navigation-row">
+										<div class="navigation-col">
+											<ul class="navigation-list">
+												<li class="navigation-list-heading"><a href="#!">Lorem ipsum</a></li>
+												<li><a href="#!">Lorem ipsum</a></li>
+												<li><a href="#!">Consequat</a></li>
+												<li><a href="#!">Cras velit </a></li>
+												<li><a href="#!">Aenean tempus</a></li>
+												<li><a href="#!">Lorem ipsum</a></li>
+												<li><a href="#!">Consequat</a></li>
+												<li><a href="#!">Cras velit </a></li>
+												<li><a href="#!">Aenean tempus</a></li>
+											</ul>
+										</div>
+										<div class="navigation-col">
+											<ul class="navigation-list">
+												<li class="navigation-list-heading"><a href="#!">Aliquam luctus</a></li>
+												<li><a href="#!">Aliquam luctus</a></li>
+												<li><a href="#!">Donec quis</a></li>
+												<li><a href="#!">Maecenas</a></li>
+												<li><a href="#!">Quisque</a></li>
+												<li><a href="#!">Aliquam luctus</a></li>
+												<li><a href="#!">Donec quis</a></li>
+												<li><a href="#!">Maecenas</a></li>
+												<li><a href="#!">Quisque</a></li>
+											</ul>
+										</div>
+										<div class="navigation-col">
+											<ul class="navigation-list">
+												<li class="navigation-list-heading"><a href="#!">Donec vestibulum</a>
+												</li>
+												<li><a href="#!">Vestibulum</a></li>
+												<li><a href="#!">Collicitudin</a></li>
+												<li><a href="#!">Mauris</a></li>
+												<li><a href="#!">Curabitur</a></li>
+												<li><a href="#!">Vestibulum</a></li>
+												<li><a href="#!">Collicitudin</a></li>
+												<li><a href="#!">Mauris</a></li>
+												<li><a href="#!">Curabitur</a></li>
+											</ul>
+										</div>
+										<div class="navigation-col">
+											<ul class="navigation-list">
+												<li class="navigation-list-heading"><a href="#!">Fusce malesuada</a>
+												</li>
+												<li><a href="#!">Malesuada</a></li>
+												<li><a href="#!">Fusce a mattis</a></li>
+												<li><a href="#!">Donec pretium</a></li>
+												<li><a href="#!">Nunc molestie</a></li>
+												<li><a href="#!">Malesuada</a></li>
+												<li><a href="#!">Fusce a mattis</a></li>
+												<li><a href="#!">Donec pretium</a></li>
+												<li><a href="#!">Nunc molestie</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="navigation-item">
+							<a class="navigation-link" href="#!">
+								Tabs
+								<span class="submenu-indicator"></span>
+							</a>
+							<div class="navigation-megamenu">
+								<div class="navigation-megamenu-container">
+									<div class="navigation-tabs">
+										<ul class="navigation-tabs-nav">
+											<li class="navigation-tabs-nav-item is-active"><a href="#!">Images</a></li>
+											<li class="navigation-tabs-nav-item"><a href="#!">Lists</a></li>
+											<li class="navigation-tabs-nav-item"><a href="#!">Text</a></li>
+											<li class="navigation-tabs-nav-item"><a href="#!">Misc</a></li>
+										</ul>
+										<div class="navigation-tabs-pane is-active">
+											<div class="navigation-row">
+												<div class="navigation-col mr-lg-3">
+													<a href="#!">
+														<img src="https://dummyimage.com/600x400/000/fff"
+															class="img-fluid w-100" alt="Responsive image">
+													</a>
+												</div>
+												<div class="navigation-col mr-lg-3">
+													<img src="https://dummyimage.com/600x400/000/fff"
+														class="img-fluid w-100" alt="Responsive image">
+												</div>
+												<div class="navigation-col">
+													<img src="https://dummyimage.com/600x400/000/fff"
+														class="img-fluid w-100" alt="Responsive image">
+												</div>
+											</div>
+											<div class="navigation-row">
+												<div class="navigation-col mr-lg-3">
+													<img src="https://dummyimage.com/600x400/000/fff"
+														class="img-fluid w-100" alt="Responsive image">
+												</div>
+												<div class="navigation-col mr-lg-3">
+													<img src="https://dummyimage.com/600x400/000/fff"
+														class="img-fluid w-100" alt="Responsive image">
+												</div>
+												<div class="navigation-col">
+													<img src="https://dummyimage.com/600x400/000/fff"
+														class="img-fluid w-100" alt="Responsive image">
+												</div>
+											</div>
+										</div>
+										<div class="navigation-tabs-pane">
+											<div class="navigation-row">
+												<div class="navigation-col">
+													<ul class="navigation-list">
+														<li class="navigation-list-heading"><a href="#!">Lorem ipsum</a>
+														</li>
+														<li><a href="#!">Lorem ipsum</a></li>
+														<li><a href="#!">Consequat</a></li>
+														<li><a href="#!">Cras velit </a></li>
+														<li><a href="#!">Aenean tempus</a></li>
+														<li><a href="#!">Lorem ipsum</a></li>
+														<li><a href="#!">Consequat</a></li>
+														<li><a href="#!">Cras velit </a></li>
+														<li><a href="#!">Aenean tempus</a></li>
+													</ul>
+												</div>
+												<div class="navigation-col">
+													<ul class="navigation-list">
+														<li class="navigation-list-heading"><a href="#!">Aliquam
+																luctus</a></li>
+														<li><a href="#!">Aliquam luctus</a></li>
+														<li><a href="#!">Donec quis</a></li>
+														<li><a href="#!">Maecenas</a></li>
+														<li><a href="#!">Quisque</a></li>
+														<li><a href="#!">Aliquam luctus</a></li>
+														<li><a href="#!">Donec quis</a></li>
+														<li><a href="#!">Maecenas</a></li>
+														<li><a href="#!">Quisque</a></li>
+													</ul>
+												</div>
+												<div class="navigation-col">
+													<ul class="navigation-list">
+														<li class="navigation-list-heading"><a href="#!">Donec
+																vestibulum</a></li>
+														<li><a href="#!">Vestibulum</a></li>
+														<li><a href="#!">Collicitudin</a></li>
+														<li><a href="#!">Mauris</a></li>
+														<li><a href="#!">Curabitur</a></li>
+														<li><a href="#!">Vestibulum</a></li>
+														<li><a href="#!">Collicitudin</a></li>
+														<li><a href="#!">Mauris</a></li>
+														<li><a href="#!">Curabitur</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="navigation-tabs-pane text-justify">
+											<div class="navigation-row">
+												<div class="navigation-col">
+													<h6><b>Lorem ipsum dolor</b></h6>
+													<p class="m-0">
+														Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+														eu tempus nibh, a accumsan augue.
+														Fusce rutrum ex vel orci varius tempor. Curabitur vel sapien
+														lobortis, vestibulum nisl ac
+														Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+														Scelerisque nibh mi, porttitor ipsum
+														primis in faucibus orci luctus augue adipiscing elit
+														Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+														eu tempus nibh, a accumsan augue.
+														Fusce rutrum ex vel orci varius tempor. Curabitur vel sapien
+														lobortis, vestibulum nisl ac
+														Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+														Scelerisque nibh mi, porttitor ipsum.
+														Fusce rutrum ex vel orci varius tempor. Curabitur vel sapien
+														lobortis, vestibulum nisl ac
+														vel sapien lobortis
+													</p>
+												</div>
+											</div>
+											<div class="navigation-row">
+												<div class="navigation-col">
+													<h6><b>Fusce rutrum ex vel</b></h6>
+													<p class="m-0 pr-lg-3">
+														Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+														eu tempus nibh, a accumsan augue.
+														Fusce rutrum ex vel orci varius tempor. Curabitur vel sapien
+														lobortis, vestibulum nisl ac
+														Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+														Scelerisque nibh mi, porttitor ipsum.
+														Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+														eu tempus nibh, a accumsan augue.
+														Fusce rutrum ex vel orci varius tempor. Curabitur vel sapien
+														lobortis, vestibulum nisl ac
+														Lorem ipsum dolor sit amet, consectetur adipiscing.
+													</p>
+												</div>
+												<div class="navigation-col">
+													<h6 class="pl-lg-3"><b>Scelerisque nibh mi</b></h6>
+													<p class="m-0 pl-lg-3">
+														Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+														eu tempus nibh, a accumsan augue.
+														Fusce rutrum ex vel orci varius tempor. Curabitur vel sapien
+														lobortis, vestibulum nisl ac
+														Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+														Scelerisque nibh mi, porttitor ipsum.
+														Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+														eu tempus nibh, a accumsan augue.
+														Fusce rutrum ex vel orci varius tempor. Curabitur vel sapien
+														lobortis, vestibulum nisl ac
+														Lorem ipsum dolor sit amet, consectetur adipiscing.
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="navigation-tabs-pane">
+											<div class="navigation-col p-2">
+												<div class="navigation-row mb-3">
+													<div class="navigation-col-3">
+														<img src="https://dummyimage.com/600x400/000/fff"
+															class="img-fluid" alt="Responsive image">
+													</div>
+													<div class="navigation-col-9 d-flex align-items-center">
+														<div>
+															<p class="m-0 px-lg-3 text-justify">
+																Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+																Aliquam pellentesque nulla non neque tempor,
+																ac ultrices massa condimentum. Nunc semper dictum lectus
+																ultricies hendrerit. In ut lorem in urna.
+																Lorem ipsum dolor sit amet.
+															</p>
+															<button type="button"
+																class="btn btn-outline-primary btn-sm mt-3 ml-lg-3">Learn
+																more</button>
+														</div>
+													</div>
+												</div>
+												<div class="navigation-row mb-3">
+													<div class="navigation-col-3">
+														<img src="https://dummyimage.com/600x400/000/fff"
+															class="img-fluid" alt="Responsive image">
+													</div>
+													<div class="navigation-col-9 d-flex align-items-center">
+														<div>
+															<p class="m-0 px-lg-3 text-justify">
+																Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+																Aliquam pellentesque nulla non neque tempor,
+																ac ultrices massa condimentum. Nunc semper dictum lectus
+																ultricies hendrerit. In ut lorem in urna.
+																Lorem ipsum dolor sit amet.
+															</p>
+															<button type="button"
+																class="btn btn-outline-primary btn-sm mt-3 ml-lg-3">Learn
+																more</button>
+														</div>
+													</div>
+												</div>
+												<div class="navigation-row">
+													<div class="navigation-col-3">
+														<img src="https://dummyimage.com/600x400/000/fff"
+															class="img-fluid" alt="Responsive image">
+													</div>
+													<div class="navigation-col-9 d-flex align-items-center">
+														<div>
+															<p class="m-0 px-lg-3 text-justify">
+																Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+																Aliquam pellentesque nulla non neque tempor,
+																ac ultrices massa condimentum. Nunc semper dictum lectus
+																ultricies hendrerit. In ut lorem in urna.
+																Lorem ipsum dolor sit amet.
+															</p>
+															<button type="button"
+																class="btn btn-outline-primary btn-sm mt-3 ml-lg-3">Learn
+																more</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<ul class="navigation-menu navigation-social-menu">
+						<li class="navigation-item">
+							<a class="navigation-link" href="//about.me/ahmadeyamin">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li class="navigation-item">
+							<a class="navigation-link" href="//about.me/ahmadeyamin">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li class="navigation-item">
+							<a class="navigation-link" href="//about.me/ahmadeyamin">
+								<i class="fab fa-instagram"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+			<div class="overlay-panel" style="background: rgba(0, 0, 0, 0.7)"></div>
+			</nav>
+
+		</div>
+
+
+
+		<div class="header-text text-center position-relative text-white">
+			<h1 class="display-4 position-relative">
+				NAVUU
+				<span class="p-1">V. 1.0.0</span>
+			</h1>
+			<hr>
+			<p class="lead mx-auto m-0">
+				The best navigation for ALL websites!
+			</p>
+			<p class="mx-auto mb-5">
+				Pure Javascript, super compatibility and high level documentation!
+			</p>
+			<div class="header-image d-flex justify-content-center align-items-center">
+				<img src="../dist/img/iphone.png" class="img-fluid" alt="Responsive image">
+			</div>
+
+
+			<h3 class="text-center text-white mt-4">Help & Work With Developer (<a class="text-white"
+					href="http://about.me/ahmadeyamin">AhmadEyamin</a>)</h3>
+		</div>
+	</header>
+
+
+	<section>
+
+	</section>
+	<script>
+		$('#navigation').navigation()
+	</script>
+</body>
+
+</html>
