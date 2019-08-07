@@ -1,18 +1,18 @@
 {
-  "name": "NAVUU-navigation",
+  "name": "navuu-navigation",
   "version": "1.0.0",
   "description": "NAVUU The Ultimate Navigation ",
   "keywords": [
-	"navigation",
-	"menu",
-	"nav"
+    "navigation",
+    "menu",
+    "nav"
 
   ],
-    "author": "AhmadEyamin",
-    "license": "ISC",
-	"homepage": "https://github.com/ahmadeyamin/navuu-navigation/",
-	"repository": {
-      "type": "git",
-      "url": "https://github.com/ahmadeyamin/navuu-navigation.git"
-    },
+  "author": "AhmadEyamin",
+  "license": "ISC",
+  "homepage": "https://github.com/ahmadeyamin/navuu-navigation/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmadeyamin/navuu-navigation.git"
+  }
 }
